@@ -18,60 +18,37 @@ module.exports = {
         ],
         sidebar: [
             {
-                title: '基础',   // 必要的
+                title: '首页',   // 必要的
                 //	path: '/basics-guide/course',      // 可选的, 应该是一个绝对路径
                 collapsable: false, // 可选的, 默认值是 true,
                 sidebarDepth: 2,    // 可选的, 默认值是 1
                 children: [
-                    ['/', '介绍'],
-                    ['/quick-start/update-log.md', '更新记录']
+                    ['/home/home.md', '首页'],
+                    ['/demo/demo.md', 'demo']
                 ]
             },
             {
-                title: '安装部署',   // 必要的
+                title: '产品简介',   // 必要的
                 //	path: '/basics-guide/course',      // 可选的, 应该是一个绝对路径
                 collapsable: false, // 可选的, 默认值是 true,
                 sidebarDepth: 2,    // 可选的, 默认值是 1
                 children: [
-                    ['/install-deployment/start-with-source.md', '本地源码启动'],
-                    ['/install-deployment/docker-start.md', '使用docker启动'],
-                    // ['/install-deployment/ide-docker-start.md', '开发环境最佳实践'],
-                    ['/install-deployment/jetlinks-cloud.md', '启动jetlinks微服务版本'],
-                    ['/install-deployment/deployment.md', '部署到服务器'],
-                    ['/install-deployment/cluster.md', '集群部署'],
-                    ['/install-deployment/performance.md', '性能优化']
-                ]
+                    ['/Product_introduction/Product_introduction2.1.md', '产品概述'],
+                    ['/Product_introduction/Basic_concepts2.2.md', '基本概念'],
+                        ]
             },
             {
-                title: '进阶',   // 必要的
+                title: '设备接入',   // 必要的
                 //	path: '/basics-guide/course',      // 可选的, 应该是一个绝对路径
                 collapsable: false, // 可选的, 默认值是 true,
                 sidebarDepth: 2,    // 可选的, 默认值是 1
                 children: [ 
-                    ['/best-practices/start.md', '最佳实践'],
-                    ['/advancement-guide/jetlinks-protocol.md', '物模型说明'],
-                    ['/basics-guide/protocol-support.md', '协议开发说明'],
-                    ['/basics-guide/jetlinks-protocol-support.md', 'JetLinks官方协议'],
-                    ['/basics-guide/jetlinks-protocol-demo.md', 'JetLinks演示协议'],
-                    ['/advancement-guide/mqtt-connection.md', '通过MQTT直连接入设备'],
-                    ['/advancement-guide/third-mqtt.md', '通过MQTT Broker接入设备'],
-                    ['/best-practices/tcp-connection.md', 'TCP透传方式接入设备'],
-                    ['/best-practices/http-connection.md', '使用HTTP接入设备(PRO)'],
-                    ['/best-practices/coap-connection.md', '使用CoAP接入设备(PRO)'],
-                    ['/best-practices/udp-connection.md', '使用UDP接入设备(PRO)'],
-                    ['/best-practices/device-gateway-connection.md', '通过网关设备接入多个子设备'],
-                    ['/best-practices/auto-register.md', '设备自注册到平台'],
-                    ['/best-practices/sort-link.md', 'TCP,MQTT短连接接入'],
-                    ['/best-practices/poll-device-data.md', '从第三方或者设备主动拉取数据'],
-                    ['/best-practices/device-alarm.md', '设备上报数据,触发设备告警并发送邮件通知.'],
-                    ['/best-practices/rule-engine-sql.md', '规则引擎-数据转发'],
-                    ['/basics-guide/course/device-alarm.md', '规则引擎-告警设置'],
-                    ['/best-practices/rule-engine-http-server.md', '通过规则引擎发布http api服务(PRO)'],
-                    ['/best-practices/rule-engine-device-avg-temp.md', '通过规则引擎计算1分钟内设备平均温度(PRO)'],
-                    ['/best-practices/rule-engine-device-same-group.md', '当房间开门时,打开对应房间当空调(PRO)'],
-                    ['/dev-guide/device-firmware', '设备固件更新'],
-                    ['/advancement-guide/benchmark.md', '压力测试']
-                ]
+                    ['/Device access/Create_product3.1.md', '创建产品'],
+                    ['/Device access/Create_Device3.2.md', '创建设备'],
+                    ['/Device access/Create_gateways_and_sub_devices3.3.md', '网关与子设备'],
+                    ['/Device access/Configuration_model3.4.md', '配置物模型'],
+                    ['/Device access/Device_access3.5.md', '设备接入方式'],
+                                    ]
             },
              
             {
@@ -80,14 +57,14 @@ module.exports = {
                 collapsable: false, // 可选的, 默认值是 true,
                 sidebarDepth: 2,    // 可选的, 默认值是 1
                 children: [
-                    ['/basics-guide/course/system-layout', '系统配置'],
-                    ['/basics-guide/device-manager.md', '设备管理'],
-                    ['/basics-guide/course/network.md', '设备接入'],
-                    ['/basics-guide/course/notification.md', '通知管理'],
-                    ['/basics-guide/course/rule-engine-nodered.md', '规则引擎'],
-                    ['/basics-guide/data-forwarding.md', '平台设备数据转发'],
-                    ['/basics-guide/cloud-docking.md', '云云对接'],
-                    ['/basics-guide/media.md', '视频网关'],
+                    ['/device_management/product4.1', '设备管理'],
+                    ['/Mocha ITOM/Device_access_gateway5.1.md', '运维管理'],
+                    ['/Alarm_Center/Alarm_configuration6.1.md', '告警中心'],
+                    ['/Notification_management/Notification_management7.md', '通知管理'],
+                    ['/Northbound_output/Northbound_output8.md', '北向输出'],
+                    ['/Rule_engine/Rule engine9.md', '规则引擎'],
+                    ['/Video_Center/Video_equipment10.md', '视频中心'],
+                    ['/System_settings/Basic_configuration13.md', '系统设置'],
                     ['/basics-guide/opc-ua.md', 'OPC UA'],
                     ['/basics-guide/DemoDevice.md', '树莓派演示设备操作流程']
                     //['/basics-guide/course/logger.md', '日志管理']

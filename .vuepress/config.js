@@ -43,11 +43,11 @@ module.exports = {
                 collapsable: false, // 可选的, 默认值是 true,
                 sidebarDepth: 2,    // 可选的, 默认值是 1
                 children: [ 
-                    ['/Device access/Create_product3.1.md', '创建产品'],
-                    ['/Device access/Create_Device3.2.md', '创建设备'],
-                    ['/Device access/Create_gateways_and_sub_devices3.3.md', '网关与子设备'],
-                    ['/Device access/Configuration_model3.4.md', '配置物模型'],
-                    ['/Device access/Device_access3.5.md', '设备接入方式'],
+                    ['/Device_access/Create_product3.1.md', '创建产品'],
+                    ['/Device_access/Create_Device3.2.md', '创建设备'],
+                    ['/Device_access/Create_gateways_and_sub_devices3.3.md', '网关与子设备'],
+                    ['/Device_access/Configuration_model3.4.md', '配置物模型'],
+                    ['/Device_access/Device_access3.5.md', '设备接入方式'],
                                     ]
             },
              
@@ -58,24 +58,22 @@ module.exports = {
                 sidebarDepth: 2,    // 可选的, 默认值是 1
                 children: [
                     ['/device_management/product4.1', '设备管理'],
-                    ['/Mocha ITOM/Device_access_gateway5.1.md', '运维管理'],
+                    ['/Mocha_ITOM/Device_access_gateway5.1.md', '运维管理'],
                     ['/Alarm_Center/Alarm_configuration6.1.md', '告警中心'],
                     ['/Notification_management/Notification_management7.md', '通知管理'],
                     ['/Northbound_output/Northbound_output8.md', '北向输出'],
                     ['/Rule_engine/Rule engine9.md', '规则引擎'],
                     ['/Video_Center/Video_equipment10.md', '视频中心'],
                     ['/System_settings/Basic_configuration13.md', '系统设置'],
-                    ['/basics-guide/opc-ua.md', 'OPC UA'],
-                    ['/basics-guide/DemoDevice.md', '树莓派演示设备操作流程']
-                    //['/basics-guide/course/logger.md', '日志管理']
+                    ['/Personal_Center/Personal_Center.md', '个人中心'],
                 ]
             },
             {
-                title: '设备接入协议开发手册',
+                title: '最佳实践',
                 collapsable: false, // 可选的, 默认值是 true,
                 sidebarDepth: 2,    // 可选的, 默认值是 1
                 children:[
-                    ['/protocol/start.md', '介绍'],
+                    ['/Best_practices/Device_access', '设备接入'],
                     ['/protocol/first.md', '快速开始'],
                     ['/protocol/mqtt.md', 'MQTT协议解析'],
                     ['/protocol/faq.md', '常见问题']

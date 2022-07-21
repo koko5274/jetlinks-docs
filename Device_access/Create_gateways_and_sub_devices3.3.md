@@ -31,7 +31,7 @@ Jetlinks物联网平台支持**设备直连**，也支持设备挂载在网关�
 2.已创建网关子设备产品和设备，创建产品时，设备类型需选择为网关子设备。具体操作，请参见<a>创建产品、创建设备</a>。</br>
 
 #### 操作步骤
-1.<a>登录</a>Jetlinks物联网平台。</br>
+1.**登录**Jetlinks物联网平台。</br>
 2.在左侧导航栏，选择**设备管理>设备**，点击查看具体的网关，选择**子设备**tab。</br>
 <div class='explanation primary'>
   <span class='iconfont icon-bangzhu explanation-icon'></span>

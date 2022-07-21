@@ -8,8 +8,12 @@
 
 **JetLinks物联网平台** 基于Java8,Spring Boot 2.x,WebFlux,Netty,Vert.x,Reactor等开发, 是一个开源的企业级物联网基础开发平台，实现了物联网相关以及相关业务开发的众多基础功能, 能帮助你快速建立物联网相关业务系统。
 
-点击添加官方QQ:①群(已满)2021514,②群(已满)324606263,③群647954464
-在线演示地址: http://demo.jetlinks.cn  用户名:`test`密码：`test123456`。测试用户未开放全部权限,建议本地运行社区版体验或者联系商务试用企业版。
+点击添加官方QQ:①群(已满)[2021514](https://qm.qq.com/cgi-bin/qm/qr?k=LGf0OPQqvLGdJIZST3VTcypdVWhdfAOG&jump_from=webapi)
+,②群(已满)[324606263](https://qm.qq.com/cgi-bin/qm/qr?k=IMas2cH-TNsYxUcY8lRbsXqPnA2sGHYQ&jump_from=webapi)
+,③群[647954464](https://qm.qq.com/cgi-bin/qm/qr?k=K5m27CkhDn3B_Owr-g6rfiTBC5DKEY59&jump_from=webapi)
+
+在线演示地址: [http://demo.jetlinks.cn](http://demo.jetlinks.cn) 用户名:`test` 密码: `test123456`.
+测试用户未开放全部权限,建议本地运行社区版体验或者联系商务试用企业版.
 
 <div class='explanation error'>
   <span class='iconfont icon-jinggao explanation-icon'></span>

@@ -40,6 +40,18 @@ JetLinks 基于Java8,Spring Boot 2.x,WebFlux,Netty,Vert.x,Reactor等开发, 是�
   说明您的需求。
 </div>
 
+<div class='explanation primary'>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
+  <li>产品在正常状态时，按钮显示为禁用；产品在启用状态时，按钮显示为启用。</li>
+  <li>产品禁用后，设备无法再接入。但不影响已经接入的设备。</li>
+</div>
+
+
+ 
+
 用户可以在指定的专用宿主机上创建自定义规格的云服务器实例，自主规划宿主机资源的使用。实例规格支持自定义，可灵活配置，打破实例规格的限制，保障业务性能的同时充分利用物理服务器资源。支持专用实例配置调整，提供实例不关机随时调整网络，关机状态下可调整实例配置的能力。
 
 <div class='explanation warning'>

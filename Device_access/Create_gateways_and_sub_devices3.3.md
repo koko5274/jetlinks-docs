@@ -18,9 +18,9 @@ Jetlinks物联网平台支持**设备直连**，也支持设备挂载在网关�
 
 #### 接入方式
 网关连接物联网平台后，将拓扑关系同步至物联网平台，代理子设备进行设备认证、消息上传、指令接收等与物联网平台的通信。</br>
-1.创建网关设备、网关子设备类型的产品。详见<a>创建产品</a>。</br>
-2.在网关设备、网关子设备的产品下创建对应的设备。详见<a>创建设备</a>。</br>
-3.建立网关设备与网关子设备的拓扑关系。详见<a>添加拓扑关系</a>。<br />
+1.创建网关设备、网关子设备类型的产品。详见[创建产品](../Device_access/Create_product3.1.md)。</br>
+2.在网关设备、网关子设备的产品下创建对应的设备。详见[创建设备](../Device_access/Create_Device3.2.md)。</br>
+3.建立网关设备与网关子设备的拓扑关系。[添加拓扑关系](../Device_access/Create_gateways_and_sub_devices3.3.md)。<br />
 
 
 ### 添加拓扑关系
@@ -36,7 +36,7 @@ Jetlinks物联网平台支持**设备直连**，也支持设备挂载在网关�
 <div class='explanation primary'>
   <span class='iconfont icon-bangzhu explanation-icon'></span>
   <span class='explanation-title font-weight'>说明</span>
-  只有设备类型为**网关设备**的设备，才有子设备tab页选项。
+  只有设备类型为**网关设备**的设备，才有**子设备tab**页选项。
 </div>
 
 ![](./img/10.png)
@@ -69,6 +69,3 @@ Jetlinks物联网平台支持**设备直连**，也支持设备挂载在网关�
 4.在Jetlinks物联网平台中创建网关子设备产品与网关子设备。</br>
 5.建立网关设备与网关子设备的拓扑关系。</br>
 
-#### 实践示例
-网关子设备接入Jetlinks物联网平台操作示例，详见<a>最佳实践</a>。
-</div>

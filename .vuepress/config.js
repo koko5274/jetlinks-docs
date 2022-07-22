@@ -73,10 +73,12 @@ module.exports = {
                 collapsable: false, // 可选的, 默认值是 true,
                 sidebarDepth: 2,    // 可选的, 默认值是 1
                 children:[
-                    ['/Best_practices/Device_access', '设备接入'],
-                    ['/protocol/first.md', '快速开始'],
-                    ['/protocol/mqtt.md', 'MQTT协议解析'],
-                    ['/protocol/faq.md', '常见问题']
+                    ['/Best_practices/Device_access.md', '设备接入'],
+                    ['/Best_practices/Scene_linkage.md', '场景联动'],
+                    ['/Best_practices/Alarm_Center.md', '告警中心'],
+                    ['/Best_practices/Rule_engine.md', '规则引擎'],
+                    ['/Best_practices/Notification_management.md', '通知管理'],
+                    ['/Best_practices/National_standard_cascade.md', '国标级联'],
                 ]
             },
             {

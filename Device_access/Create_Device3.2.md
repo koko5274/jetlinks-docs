@@ -50,10 +50,12 @@
 4.点击**下载模板**，线下填写设备基本信息。</br>
 5.点击**上传文件**。</br>
 
+
 <div class='explanation warning'>
-  <span class='iconfont icon-jinggao explanation-icon'></span>
-  <span class='explanation-title font-weight'>注意</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-jinggao explanation-icon'></span>
+    <span class='explanation-title font-weight'>注意</span>
+  </p>
   <li>导入的设备ID重复时,将自动覆盖原数据。</li>
   <li>批量导入时，系统会从上到下的读取并导入文件中的数据，一旦某条数据导入失败，将终止后续数据的导入。</li>
-</div>
 </div>

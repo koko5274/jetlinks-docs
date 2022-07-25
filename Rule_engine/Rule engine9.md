@@ -25,9 +25,11 @@
 3.点击具体数据的**编辑**按钮，在弹框页编辑名称，然后点击**确定**按钮。</br>
 ![](./img/119.png)
 
-<div class='explanation'>
-  <span class='explanation-icon primary-color ring-border'></span>
-  <span class='primary-color font-weight'>注意</span>
+<div class='explanation primary'>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   产品不支持编辑，同一个产品只能配置一个映射规则。
 </div>
 

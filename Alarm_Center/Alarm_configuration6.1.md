@@ -16,8 +16,10 @@
 3.点击具体告警配置的**编辑**按钮，在弹框页面中修改配置信息，然后点击**确定**。</br>
 ![](./img/84.png)
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   告警配置已产生告警数据时，类型、关联触发场景不支持编辑。
 </div>
 
@@ -36,8 +38,10 @@
 ![](./img/85.png)
 
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
 告警配置已产生告警数据时，不支持删除。
 </div>
 
@@ -48,8 +52,10 @@
 3.点击具体告警配置的**手动触发**按钮，然后点击**确定**。</br>
 ![](./img/86.png)
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
 告警配置所关联的场景联动为手动触发类型时，将出现此按钮，点击后将生成一条对应的告警记录数据。
 </div>
 

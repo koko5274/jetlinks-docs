@@ -34,8 +34,10 @@ Jetlinks物联网平台支持**设备直连**，也支持设备挂载在网关�
 1.**登录**Jetlinks物联网平台。</br>
 2.在左侧导航栏，选择**设备管理>设备**，点击查看具体的网关，选择**子设备**tab。</br>
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   只有设备类型为**网关设备**的设备，才有**子设备tab**页选项。
 </div>
 
@@ -45,9 +47,12 @@ Jetlinks物联网平台支持**设备直连**，也支持设备挂载在网关�
 
 #### 后续操作
 1.勾选需要解绑的子设备，然后点击页面右上方**批量解绑**按钮，解除网关与子设备拓扑关系。</br>
+
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
 解除绑定不会删除子设备。
 </div>
 

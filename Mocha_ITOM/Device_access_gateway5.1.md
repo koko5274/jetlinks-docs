@@ -18,9 +18,12 @@
 2.在左侧导航栏，选择**运维管理>设备接入网关**，进入设备接入网关列表页。</br>
 3.点击具体网关的**编辑**按钮，进入详情页步骤条第一步。</br>
 4.编辑所需要修改的配置参数，然后点击**保存**。</br>
+
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   已选定的网关类型不可编辑。
 </div>
 
@@ -40,8 +43,10 @@
 ![](./img/59.png)
 
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   <li>当产品的接入方式为自定义接入类型时才会出现物模型映射tab页。</li>
   <li> 设备-物模型映射进行修改后，将脱离产品物模型映射。</li>
   <li>系统会根据属性标识进行自动映射，若属性标识不一致，默认使用物模型属性。</li>
@@ -59,12 +64,13 @@
 3.点击新增按钮，在弹框页中填写配置信息，然后点击**确定**。</br>
 ![](./img/61.png)
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   <li>jar:上传协议jar包,文件格式支持.jar或.zip。</li>
   <li>local:填写本地协议编译目录绝对地址,如:d:/protocol/target/classes</li>
 </div>
-
 
 #### 编辑
 ##### 操作步骤
@@ -73,8 +79,10 @@
 3.点击具体协议的**编辑**按钮，在弹框页面中修改配置信息，然后点击**确定**。
 ![](./img/62.png)
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   协议类型不可编辑。
 </div>
 
@@ -85,8 +93,10 @@
 3.点击具体协议的**启用/禁用**按钮，然后点击**确定**。</br>
 ![](./img/63.png)
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
 协议包被网关使用后，不支持禁用。
 </div>
 
@@ -97,8 +107,10 @@
 3.点击具体协议的**删除**按钮，然后点击**确定**。</br>
 ![](./img/59.png)
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
  正常状态下的协议不支持删除。
 </div>
 
@@ -124,12 +136,13 @@
 3.点击页面左上角**新增**按钮，进入详情页。</br>
 ![](./img/69.png)
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
  <li>共享配置:集群下所有节点共用同一配置。 共享配置时本地地址默认为0.0.0.0</li>
  <li>独立配置:集群下不同节点使用不同配置。</li>
 </div>
-
 
 4.根据不同的网络组件类型配置对应的参数，然后点击**保存**。</br>
 
@@ -519,8 +532,10 @@ CoAP服务参数说明
 3.点击具体证书的**删除**按钮，然后点击**确定**。</br>
 ![](./img/77.png)
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   证书被网络组件使用时，不支持删除。
 </div>
 
@@ -566,9 +581,11 @@ CoAP服务参数说明
           </tr>
           </tbody>
 </table>
-<div class='explanation'>
-  <span class='explanation-icon primary-color ring-border'></span>
-  <span class='primary-color font-weight'>说明</span>
+<div class='explanation primary'>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   若系统中存在多个流媒体服务，播放视频时会进行随机调用。
 </div>
 

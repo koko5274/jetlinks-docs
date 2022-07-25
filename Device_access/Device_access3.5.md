@@ -57,6 +57,6 @@
 平台针对工业领域类设备，提供Modbus（TCP）、OPC UA协议的接入。
 
 ### 操作步骤
-接入方式详细操作步骤，请参见<a>最佳实践</a>。
+接入方式详细操作步骤，请参见[最佳实践](../Best_practices/Device_access.md)。
 
 </div>

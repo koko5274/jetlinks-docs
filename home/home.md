@@ -36,6 +36,17 @@ TCP/UDP/MQTT/HTTP、TLS/DTLS、不同厂商、不同设备、不同报文、统�
 #### 数据权限控制
 灵活的非侵入数据权限控制。可实现菜单、按钮、数据三维维度的数据权限控制。可控制单条数据的操作权限。
 
+### 技术栈
+
+1. [Spring Boot 2.3.x](https://spring.io/projects/spring-boot)
+2. [Spring WebFlux](https://spring.io/) 响应式Web支持
+3. [R2DBC](https://r2dbc.io/) 响应式关系型数据库驱动
+4. [Project Reactor](https://projectreactor.io/) 响应式编程框架
+4. [Netty](https://netty.io/),[Vert.x](https://vertx.io/) 高性能网络编程框架
+5. [ElasticSearch](https://www.elastic.co/cn/products/enterprise-search) 全文检索，日志，时序数据存储
+6. [PostgreSQL](https://www.postgresql.org) 业务功能数据管理
+7. [hsweb framework 4](https://github.com/hs-web) 业务功能基础框架
+
 ### 常见问题
 
 <div style='display:flex; border:1px solid #eee;padding: 0 8px;'>

@@ -65,8 +65,10 @@
 4.在弹框中填写调试信息，然后点击**确定**。</br>
 ![](./img/101.png)
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
  调试弹框中的“变量”，来自于模板内容中填写的变量，不存在变量时，将不显示该字段。
 </div>
 
@@ -95,10 +97,13 @@
 4.在弹框页中建立平台与钉钉/企业微信用户的关联关系，然后点击**关闭**。</br>
 ![](./img/104.png)
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   第一次进行绑定时，点击自动绑定按钮，程序根据相同名称进行自动绑定。
 </div>
+
 
 
 

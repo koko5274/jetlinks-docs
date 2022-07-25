@@ -18,10 +18,11 @@
 2.在左侧导航栏，选择**北向输出>DuerOS**，进入列表页。</br>
 3.选择具体配置的**编辑**按钮，进入详情页编辑配置信息，然后点击**保存**按钮。</br>
 ![](./img/107.png)
-
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   产品不支持编辑，同一个产品只能配置一个映射规则。
 </div>
 
@@ -48,10 +49,11 @@
 ![](./img/110.png)
 3.点击**新增**按钮，进入详情页填写配置信息，然后点击**保存**按钮。</br>
 ![](./img/111.png)
-
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   Jetlinks物联网平台北向输出到阿里云物联网平台，是一个网关设备。
 </div>
 

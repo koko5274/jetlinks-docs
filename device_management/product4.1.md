@@ -44,8 +44,10 @@
 ![](./img/16.png)
 
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
  ID不可编辑。
 </div>
 
@@ -54,13 +56,15 @@
 1.**登录**Jetlinks物联网平台。</br>
 2.在左侧导航栏，选择**设备管理>产品**，选择具体产品。点击**启用/禁用**。</br>
 ![](./img/17.png)
-
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   <li>产品在正常状态时，按钮显示为禁用；产品在启用状态时，按钮显示为启用。</li>
   <li>产品禁用后，设备无法再接入。但不影响已经接入的设备。</li>
 </div>
+
 
 #### 删除
 ##### 操作步骤
@@ -68,10 +72,11 @@
 2.在左侧导航栏，选择**设备管理>产品**，选择具体产品。点击**删除**。</br>
 ![](./img/18.png)
 
-
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   产品在正常状态时，不可删除。
 </div>
 
@@ -82,8 +87,10 @@
 3.选择需要导入的**JSON**文件，并上传。</br>
 
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   导入数据根据ID进行匹配，系统中不存在对应ID时，将自动创建新产品，默认产品为禁用状态;系统中已存在对应ID时，将自动覆盖原产品数据。
 </div>
 
@@ -242,11 +249,12 @@
 ![](./img/24.png)
 
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
  标识和来源均不可编辑。
 </div>
-
 
 #### 删除
 ##### 操作步骤
@@ -276,11 +284,12 @@
 ![](./img/29.png)
 
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   接入配置中的参数根据所选择的接入方式以及协议包内容动态显示。
 </div>
-
 
 #### 更换接入方式
 ##### 操作步骤
@@ -290,8 +299,10 @@
 ![](./img/28.png)
 
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
     当前产品下若已接入设备，不支持更换接入方式。
 </div>
 
@@ -305,8 +316,10 @@
 ![](./img/30.png)
 
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   <li>当产品的接入方式为自定义接入类型时才会出现物模型映射tab页。</li>
   <li> 设备-物模型映射默认会继承产品物模型映射规则。</li>
   <li>系统会根据属性标识进行自动映射，若属性标识不一致，默认使用物模型属性。</li>
@@ -324,17 +337,21 @@
 4.输入**Topic**或**URL**进行调试。
 
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
-     显示Topic或者URL由协议包拟定。
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
+     显示Topic配置/URL配置由协议包拟定。
 </div>
 
 5.调试通过后，点击**保存**。
 
 ![](./img/31.png)
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   <li>该tab页的展示与否由协议包拟定。</li>
   <li>设备-数据解析将自动继承产品的数据解析规则。</li>
 </div>
@@ -385,8 +402,10 @@
 ![](./img/34.png)
 
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
    ID和所属产品不支持编辑。
 </div>
 
@@ -396,8 +415,10 @@
 2.在左侧导航栏，选择**设备管理>设备**，选择具体设备。点击**启用/禁用**。
 ![](./img/35.png)
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
  设备在离线/在线状态时，按钮显示为禁用；设备在禁用状态时，按钮显示为启用。
 </div>
 
@@ -407,8 +428,10 @@
 2.在左侧导航栏，选择**设备管理>设备**，选择具体设备。点击**删除**。
 ![](./img/36.png)
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
  设备在离线/在线状态时，不可删除。
 </div>
 
@@ -595,9 +618,11 @@
 2.在左侧导航栏，选择**设备管理>设备**，点击**查看**，切换至物模型tab页，并点击**编辑**按钮。
 3.在**编辑**抽屉中，编辑相关参数，然后单击**确定**。
 ![](./img/42.png)
-  <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+<div class='explanation primary'>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   标识不支持编辑。
 </div>
 
@@ -608,8 +633,10 @@
 3.在**导入物模型**弹框中，选择导入方式，并根据导入方式，选择需要导入的物模型，然后单击**确定**。
 ![](./img/43.png)
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   导入的物模型会覆盖原来的属性、功能、事件、标签，请谨慎操作。
 </div>
 
@@ -642,10 +669,11 @@
 2.在左侧导航栏，选择**设备管理>设备**，点击**查看**，切换至设备诊断tab页。
 3.根据系统自动诊断结果，对**异常**或**可能存在异常**的检查项进行处理。
 ![](./img/48.png)
-
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
  <li>人工检查：人工核查一遍对应诊断项的配置参数是否填写正确。</li>
  <li>忽略：人工判断该检查项不影响设备接入平台时，可直接点击忽略。</li>
 </div>
@@ -662,10 +690,11 @@
 2.在左侧导航栏，选择**设备管理>设备**，点击**查看**，切换至物模型映射tab页。
 3.在物模型映射页面，通过下拉框建立**物模型属性**与**设备上报属性**的映射关系。
 ![](./img/50.png)
-
-<div class='explanation'>
-  <span class='explanation-icon primary-color ring-border'></span>
-  <span class='primary-color font-weight'>注意</span>
+<div class='explanation primary'>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   <li>当产品的接入方式为自定义接入类型时才会出现物模型映射tab页。</li>
   <li> 设备-物模型映射进行修改后，将脱离产品物模型映射。</li>
   <li>系统会根据属性标识进行自动映射，若属性标识不一致，默认使用物模型属性。</li>
@@ -701,9 +730,11 @@
 2.在左侧导航栏，选择**设备管理>产品分类**，进入列表页。
 3.点击具体分类的**删除**按钮，然后点击**确定**。
 ![](./img/54.png)
-<div class='explanation'>
-  <span class='explanation-icon primary-color ring-border'></span>
-  <span class='primary-color font-weight'>注意</span>
+<div class='explanation primary'>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
  <li>已经被产品绑定的分类，不可删除。</li>
  <li>删除父节点时，子节点也会被一起删除。</li>
 </div>

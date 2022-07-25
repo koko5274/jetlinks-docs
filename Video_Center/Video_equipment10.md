@@ -41,8 +41,10 @@
 点击页面左上角新增按钮，填写通道信息。
 ![](./img/132.png)
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
  只有固定地址接入类型的设备才可以新增通道。
 </div>
 
@@ -55,8 +57,10 @@
 4.删除通道</br>
 点击通道操作列的**删除**按钮，然后点击确定。
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   只有固定地址接入类型的设备才可以删除通道。
 </div>
 
@@ -109,9 +113,11 @@
 1.编辑国标ID</br>
 点击国标ID字段后方的**编辑**ICON，重新填写**18位**或**20位**的ID。
 ![](./img/143.png)
-<div class='explanation'>
-  <span class='explanation-icon primary-color ring-border'></span>
-  <span class='primary-color font-weight'>注意</span>
+<div class='explanation primary'>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
   国标ID必须符合GB/T28181协议规范，否则将导致级联推送失败。
 </div>
 

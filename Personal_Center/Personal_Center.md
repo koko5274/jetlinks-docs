@@ -8,10 +8,11 @@
 ![](./img/194.png)
 3.点击各个卡片的编辑按钮，在弹框页修改信息，然后点击**保存**。</br>
 ![](./img/195.png)
-
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
  绑定第三方账号功能需在配置文件中进行配置。未配置时页面不显示该模块。
 </div>
 
@@ -26,8 +27,10 @@
 3.点击**新增**按钮，在弹框页面填写订阅信息，然后点击**确定**。</br>
 ![](./img/197.png)
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
 通知方式默认勾选站内通知，其他选项来自于配置文件。
 </div>
 

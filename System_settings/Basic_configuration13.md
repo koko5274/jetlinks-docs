@@ -92,21 +92,28 @@
 
 ##### 后续步骤
 1.资产解绑</br>
-勾选需要解绑的资产数据或点击具体资产的解绑按钮，可进行批量解绑或单个解绑。
+勾选需要解绑的资产数据或点击具体资产的解绑按钮，可进行**批量解绑**或**单个解绑**。</br>
 2.编辑资产权限</br>
-点击具体资产的**编辑**按钮，在弹框页面编辑资产数据权限。
+点击具体资产的**编辑**按钮，在弹框页面编辑资产数据权限。</br>
+
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
 <li>用户类型的资产不涉及此功能。</li>
 <li>同一个设备可以被分配至多个部门。</li>
 </div>
 
+
 ## 角色管理
 统一维护管理系统内的角色，角色可与权限进行关联，以实现不同角色查看不同菜单，不同用户查看同一菜单下不同数据。
+
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
 当前只有产品、设备、产品分类3个菜单支持数据权限。
 </div>
 
@@ -121,8 +128,10 @@
 ![](./img/162.png)
 
 <div class='explanation primary'>
-  <span class='iconfont icon-bangzhu explanation-icon'></span>
-  <span class='explanation-title font-weight'>说明</span>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
 勾选父菜单会自动关联勾选下属子菜单。
 </div>
 
@@ -177,7 +186,7 @@
 1.**登录**Jetlinks物联网平台。</br>
 2.点击顶部**系统管理**，在左侧导航栏，选择**菜单管理**，进入列表页。</br>
 3.点击具体菜单的**查看**按钮，进入详情页编辑菜单信息，然后点击**保存**。</br>
-![](./img/165.png)
+![](./img/166.png)
 
 #### 删除
 ##### 操作步骤

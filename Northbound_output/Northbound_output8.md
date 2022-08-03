@@ -54,7 +54,7 @@
     <span class='iconfont icon-bangzhu explanation-icon'></span>
     <span class='explanation-title font-weight'>说明</span>
   </p>
-  Jetlinks物联网平台北向输出到阿里云物联网平台，是一个网关设备。
+  Jetlinks物联网平台北向输出到阿里云物联网平台，将以一个网关设备进行展示。
 </div>
 
 #### 编辑 

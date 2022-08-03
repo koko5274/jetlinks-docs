@@ -32,7 +32,7 @@
           </tr>
               <tr>
             <td>设备类型</td>
-            <td><span style='font-weight:600'>直连设备</span>：能直接通过以太网连接到Jetlinks物联网平台<br /><span style='font-weight:600'>网关设备</span>：能挂载子设备，是多个网络间提供数据转换服务的设备。<br /><span style='font-weight:600'>网关子设备</span>：不能直接通过以太网连接到Jetlinks物联网平台的设备，需要作为网关的子设备，由网关代理连接到Jetlinks物联网平台。<br />
+            <td><span style='font-weight:600'>直连设备</span>：能直接通过以太网连接到Jetlinks物联网平台。<br /><span style='font-weight:600'>网关设备</span>：能挂载子设备，是多个网络间提供数据转换服务的设备。<br /><span style='font-weight:600'>网关子设备</span>：不能直接通过以太网连接到Jetlinks物联网平台的设备，需要作为网关的子设备，由网关代理连接到Jetlinks物联网平台。<br />
 <div class='explanation info no-border'>
     <span class='explanation-title font-weight'>说明</span>
     <ul>

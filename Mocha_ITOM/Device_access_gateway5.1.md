@@ -42,15 +42,6 @@
 3.点击具体网关的**删除**按钮，然后点击**确定**。</br>
 ![](./img/59.png)
 
-<div class='explanation primary'>
-  <p class='explanation-title-warp'>
-    <span class='iconfont icon-bangzhu explanation-icon'></span>
-    <span class='explanation-title font-weight'>说明</span>
-  </p>
-  <li>当产品的接入方式为自定义接入类型时才会出现物模型映射tab页。</li>
-  <li> 设备-物模型映射进行修改后，将脱离产品物模型映射。</li>
-  <li>系统会根据属性标识进行自动映射，若属性标识不一致，默认使用物模型属性。</li>
-</div>
 
 ## 协议管理
 
@@ -303,10 +294,6 @@ WebSocket/HTTP服务参数说明
             <td>私钥别名</td>
             <td>证书的私钥别名。</td>
           </tr>
-            <tr>
-            <td>粘拆包规则</td>
-            <td>单选下拉框，用于配置粘拆包方式。</td>
-          </tr>
         </tbody>
 </table>
 
@@ -528,7 +515,7 @@ CoAP服务参数说明
 #### 删除
 ##### 操作步骤
 1.**登录**Jetlinks物联网平台。</br>
-2.在左侧导航栏，选择**运维管理>设备接入网关**，进入列表页。</br>
+2.在左侧导航栏，选择**运维管理>证书管理**，进入列表页。</br>
 3.点击具体证书的**删除**按钮，然后点击**确定**。</br>
 ![](./img/77.png)
 <div class='explanation primary'>
@@ -573,11 +560,11 @@ CoAP服务参数说明
           </tr>
           <tr>
             <td>API Host</td>
-            <td>调用流媒体接口时请求的服务地址</td>
+            <td>调用流媒体接口时请求的服务地址。</td>
           </tr>
            <tr>
             <td>RTP IP</td>
-            <td>视频设备将流推送到该IP地址下，部分设备仅支持IP地址，建议全是用IP地址</td>
+            <td>视频设备将流推送到该IP地址下，部分设备仅支持IP地址，建议全是用IP地址。</td>
           </tr>
           </tbody>
 </table>

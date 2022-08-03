@@ -15,11 +15,14 @@
 在线演示地址: [http://demo.jetlinks.cn](http://demo.jetlinks.cn) 用户名:`test` 密码: `test123456`.
 测试用户未开放全部权限,建议本地运行社区版体验或者联系商务试用企业版.
 
-<div class='explanation error'>
-  <span class='iconfont icon-jinggao explanation-icon'></span>
-  <span class='explanation-title font-weight'>特此申明！</span>
+<div class='explanation warning'>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-jinggao explanation-icon'></span>
+    <span class='explanation-title font-weight'>特此申明！</span>
+  </p>
    近日有不法分子利用低价JetLinks企业版源代码实施诈骗，我方已报警备案。购买企业版请联系官方QQ群管理员，QQ群内一切主动私聊你的都是骗子。在第三方获取到的企业版源码，由此带来的法律后果自行承担。
 </div>
+
 
 ### 核心特性
 

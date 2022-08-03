@@ -18,11 +18,11 @@
         <tbody>
           <tr>
             <td>MQTT直连</td>
-            <td>适用于轻量级的异步通信。设备通过MQTT协议接入服务网关，通过Topic发布和订阅消息</td>
+            <td>适用于轻量级的异步通信。设备通过MQTT协议接入服务网关，通过Topic发布和订阅消息。</td>
           </tr>
           <tr>
             <td>WebSocket</td>
-            <td>适用于设备端和服务端进行双向数据传输的场景。设备通过Websocket接入</td>
+            <td>适用于设备端和服务端进行双向数据传输的场景。设备通过Websocket接入。</td>
           </tr>
           <tr>
             <td> CoAP</td>
@@ -30,19 +30,19 @@
           </tr>
           <tr>
             <td>TCP透传</td>
-            <td>适用于可靠性高的场景。设备使用TCP协议连接服务并传输消息</td>
+            <td>适用于可靠性高的场景。设备使用TCP协议连接服务并传输消息。</td>
           </tr>
           <tr>
             <td>HTTP推送</td>
-            <td>适用于设备使用HTTP协议上报消息的场景</td>
+            <td>适用于设备使用HTTP协议上报消息的场景。</td>
           </tr>
           <tr>
             <td>UDP</td>
-            <td>适用于速度要求高的场景。设备使用UDP协议连接服务并传输消息</td>
+            <td>适用于速度要求高的场景。设备使用UDP协议连接服务并传输消息。</td>
           </tr>
            <tr>
             <td>MQTT Broker</td>
-            <td>适用于设备不直接接入平台，而是通过第三方MQTT服务接入的场景</td>
+            <td>适用于设备不直接接入平台，而是通过第三方MQTT服务接入的场景。</td>
           </tr>
           </tbody>
 </table>

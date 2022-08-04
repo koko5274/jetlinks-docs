@@ -12,7 +12,13 @@
 3.点击**新增**按钮，进入详情页，填写设备信息，然后点击**保存**。</br>
 ![](./img/127.png)
 
-
+<div class='explanation primary'>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
+接入密码需与设备端配置的接入密码一致。
+</div>
 
 #### 编辑
 ##### 操作步骤
@@ -20,6 +26,14 @@
 2.点击顶部**视频中心**，在左侧导航栏，选择**视频设备**，进入列表页。</br>
 3.点击具体数据的**编辑**按钮，进入详情页，编修所需要修改的信息，然后点击**确定**按钮。</br>
 ![](./img/129.png)
+
+<div class='explanation primary'>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
+接入方式不可编辑。
+</div>
 
 #### 删除
 ##### 操作步骤
@@ -53,6 +67,14 @@
 
 3.回放视频</br>
 ![](./img/134.png)
+<div class='explanation primary'>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
+<li>云端：存储在服务器中</li>
+<li>本地：存储在设备本地</li>
+</div>
 
 4.删除通道</br>
 点击通道操作列的**删除**按钮，然后点击确定。
@@ -62,6 +84,18 @@
     <span class='explanation-title font-weight'>说明</span>
   </p>
   只有固定地址接入类型的设备才可以删除通道。
+</div>
+
+#### 更新通道
+1.**登录**Jetlinks物联网平台。</br>
+2.点击顶部**视频中心**，在左侧导航栏，选择**视频设备**，进入列表页。</br>
+3.点击具体数据的**更新通道**按钮。</br>
+<div class='explanation primary'>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
+  状态为离线的设备，更新通道按钮不可点击。
 </div>
 
 ## 分屏展示
@@ -82,7 +116,7 @@
 
 ## 国标级联
 
-该功能通过GB/T28181的方式将本地平台的设备推送给上级平台。</br>
+该功能通过GB/T28181的方式将Jetlinks平台的设备推送给上级平台。</br>
 
 #### 新增
 ##### 操作步骤
@@ -91,6 +125,85 @@
 ![](./img/136.png)
 3.点击左上角**新增**按钮，进入详情页填写相关信息，然后点击**保存**。</br>
 ![](./img/137.png)
+
+<table class='table'>
+        <thead>
+            <tr>
+              <td>参数</td>
+              <td>说明</td>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>名称</td>
+            <td>为国标级联配置命名，最多可输入64个字符。</td>
+          </tr>
+          <tr>
+            <td>代理视频流</td>
+            <td>默认不使用平台内置的代理。</td>
+          </tr>
+          <tr>
+            <td>集群节点</td>
+            <td>使用此集群节点级联到上级平台。</td>
+          </tr>
+          <tr>
+            <td>信令名称</td>
+            <td>为信令命名，该名称将在上级平台中显示。</td>
+          </tr>
+           <tr>
+            <td>上级SIP ID</td>
+            <td>填写上级SIP ID唯一标识。</td>
+          </tr>
+          <tr>
+            <td>上级SIP 域</td>
+            <td>填写上级SIP域。</td>
+          </tr>
+           <tr>
+            <td>上级SIP 地址</td>
+            <td>填写上级SIP地址。</td>
+          </tr>
+           <tr>
+            <td>本地 SIP ID</td>
+            <td>填写本地SIP ID。</td>
+          </tr>
+           <tr>
+            <td>SIP 本地地址</td>
+            <td>用指定的网卡和端口进行请求。</td>
+          </tr>
+           <tr>
+            <td>SIP 远程地址</td>
+            <td>填写SIP 远程地址，该地址为对外提供访问的地址。</td>
+          </tr>
+          <tr>
+            <td>用户</td>
+            <td>部分平台有基于用户和接入密码的特殊认证。通常情况下,请填写本地SIP ID值。</td>
+          </tr>
+          <tr>
+            <td>接入密码</td>
+            <td>需与上级平台设置的接入密码一致，用于身份认证。</td>
+          </tr>
+          <tr>
+            <td>厂商</td>
+            <td>填写本平台的厂商名，该字段将在上级平台中进行显示。</td>
+          </tr>
+          <tr>
+            <td>型号</td>
+            <td>填写本平台的型号，该字段将在上级平台中进行显示。</td>
+          </tr>
+          <tr>
+            <td>版本号</td>
+            <td>填写本平台的版本号，该字段将在上级平台中进行显示。</td>
+          </tr>
+          <tr>
+            <td>心跳周期</td>
+            <td>需与上级平台设置的心跳周期保持一致，通常默认60秒。</td>
+          </tr>
+          <tr>
+            <td>注册间隔</td>
+            <td>若SIP代理通过注册方式校时,其注册间隔时间宜设置为小于 SIP代理与 SIP服务器出现1s误 差所经过的运行时间。</td>
+          </tr>
+        </tbody>
+      </table>
 
 #### 编辑
 ##### 操作步骤

@@ -197,6 +197,21 @@
 4.（可选操作）点击切换至**按钮管理**tab，点击**新增**按钮，在弹框页面填写按钮权限信息，然后点击**保存**。</br>
 ![](./img/167.png)
 
+#### 菜单配置
+##### 操作步骤
+1.**登录**Jetlinks物联网平台。</br>
+2.点击顶部**系统管理**，在左侧导航栏，选择**菜单管理**，进入列表页。</br>
+3.点击页面左侧的**菜单配置**按钮，进入详情页。</br>
+4.拖拽左侧源菜单至右侧系统菜单中，然后点击保存。</br>
+![](./img/194.png)
+<div class='explanation primary'>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
+源菜单基于系统代码自动读取而来，系统菜单为展现在菜单管理页面中的菜单数据。</br>
+同一个源菜单，只能配置一次。拖动源菜单父节点时会将下属子节点一并移动。
+</div>
 
 #### 编辑
 ##### 操作步骤

@@ -24,7 +24,7 @@ module.exports = {
                 sidebarDepth: 2,    // 可选的, 默认值是 1
                 children: [
                     ['/home/home.md', '首页'],
-                    ['/demo/demo.md', 'demo']
+                    ['/home/Version_upgrade.md', '版本升级说明'],
                 ]
             },
             {

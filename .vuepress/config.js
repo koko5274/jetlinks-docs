@@ -69,6 +69,21 @@ module.exports = {
                 ]
             },
             {
+                title: '安装部署',   // 必要的
+                //	path: '/basics-guide/course',      // 可选的, 应该是一个绝对路径
+                collapsable: false, // 可选的, 默认值是 true,
+                sidebarDepth: 2,    // 可选的, 默认值是 1
+                children: [
+                    ['/install-deployment/start-with-source.md', '本地源码启动'],
+                    ['/install-deployment/docker-start.md', '使用docker启动'],
+                    // ['/install-deployment/ide-docker-start.md', '开发环境最佳实践'],
+                    // ['/install-deployment/jetlinks-cloud.md', '启动jetlinks微服务版本'],
+                    ['/install-deployment/deployment.md', '部署到服务器'],
+                    ['/install-deployment/cluster.md', '集群部署'],
+                    ['/install-deployment/performance.md', '性能优化']
+                ]
+            },
+            {
                 title: '最佳实践',
                 collapsable: false, // 可选的, 默认值是 true,
                 sidebarDepth: 2,    // 可选的, 默认值是 1

@@ -84,6 +84,19 @@ module.exports = {
                 ]
             },
             {
+                title: '功能说明',   // 必要的
+                //	path: '/basics-guide/course',      // 可选的, 应该是一个绝对路径
+                collapsable: false, // 可选的, 默认值是 true,
+                sidebarDepth: 2,    // 可选的, 默认值是 1
+                children: [
+                    ['/function-description/common_expression.md', '常见名词说明'],
+                    ['/function-description/metadata_description.md', '物模型说明'],
+                    ['/function-description/device_message_description.md', '平台统一设备消息定义'],
+                    ['/function-description/storage_policy.md', '存储策略选择'],
+                    ['/function-description/data-forwarding.md', '平台设备数据转发'],
+                ]
+            },
+            {
                 title: '最佳实践',
                 collapsable: false, // 可选的, 默认值是 true,
                 sidebarDepth: 2,    // 可选的, 默认值是 1

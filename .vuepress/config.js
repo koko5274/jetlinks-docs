@@ -138,6 +138,19 @@ module.exports = {
                 ]
             },
             {
+                title: '视频中心',   // 必要的
+                //      path: '/basics-guide/course',      // 可选的, 应该是一个绝对路径
+                collapsable: false, // 可选的, 默认值是 true,
+                sidebarDepth: 2,    // 可选的, 默认值是 1
+                children: [
+                    //['', '介绍'],
+                    //['', '快速开始'],
+                    ['/media-guide/media_basic.md', '快速入门'],
+                    ['/media-guide/media_access_process.md', '视频接入流程'],
+                    ['/media-guide/media-base-config.md', '配置摄像头示例'],
+                ]
+            },
+            {
                 title: '第三方平台',   // 必要的
                 //      path: '/basics-guide/course',      // 可选的, 应该是一个绝对路径
                 collapsable: false, // 可选的, 默认值是 true,

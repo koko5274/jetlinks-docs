@@ -124,13 +124,18 @@ module.exports = {
                     ['/dev-guide/reactor-ql.md', 'ReactorQL,使用SQL处理实时数据.'],
                     ['/dev-guide/rule-engine.md', '规则引擎说明'],
                     //['/dev-guide/utils', '常用API及工具类'],
+                    ['/dev-guide/protocol-support.md', '协议开发说明'],
+                    ['/dev-guide/jetlinks-protocol-support.md', 'JetLinks 官方协议'],
+                    ['/dev-guide/jetlinks-protocol-demo.md', 'JetLinks 演示协议'],
                     ['/dev-guide/custom-message-protocol.md', '自定义消息协议'],
                    // ['/dev-guide/custom-notification-component.md', '自定义通知组件'],
                    // ['/dev-guide/send-message.md', '向设备发送消息'],
                     // ['/dev-guide/subscribe-device-message', '从事件总线中订阅消息'],
-                    ['/dev-guide/websocket-subs.md', '使用websocket订阅平台消息'],
-                    ['/dev-guide/mqtt-subs.md', '使用mqtt订阅平台消息'],
-                    ['/dev-guide/commons-api.md', '平台内部核心接口,类说明'],
+                    // ['/dev-guide/websocket-subs.md', '使用websocket订阅平台消息'],
+                    // ['/dev-guide/mqtt-subs.md', '使用mqtt订阅平台消息'],
+                    ['/dev-guide/commons-api.md', '平台内部核心类及接口说明'],
+                    ['/dev-guide/sort-link.md', '短连接接入平台'],
+                    ['/dev-guide/poll-device-data.md', '平台从第三方或者设备主动拉取数据'],
                     ['/dev-guide/assets.md', '数据权限控制'],
                     ['/dev-guide/sso.md', '单点登录'],
                     //['/dev-guide/micro-service', '微服务']
@@ -170,8 +175,8 @@ module.exports = {
                 children: [
                     //['', '介绍'],
                     //['', '快速开始'],
-                    ['/big-screen/start/start', '启动'],
-                    ['big-screen/baiscs/open', '快速入门'],
+                    ['/big-screen/start/new-visilization.md', '启动'],
+                    // ['big-screen/baiscs/open', '快速入门'],
                 ]
             },
             {

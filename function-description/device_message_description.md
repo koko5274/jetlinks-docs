@@ -381,7 +381,7 @@ EventMessage{
 
 父子设备消息处理<a href='/Device_access/Create_gateways_and_sub_devices3.3.html'>请看这里</a>
 
-### 设备消息对应事件总线topic
+## 设备消息对应事件总线topic
 
 协议包将设备上报后的报文解析为平台统一的设备消息后,会将消息转换为对应的topic
 并发送到事件总线,可以通过从事件总线订阅消息来处理这些消息。

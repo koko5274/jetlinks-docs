@@ -32,9 +32,15 @@ ws.onmessage=function(e){console.log(e.data)}
 }
 ```
 
-::: warning 注意
+<div class='explanation warning'>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-jinggao explanation-icon'></span>
+    <span class='explanation-title font-weight'>警告</span>
+  </p>
+
 在取消订阅之前,多次传入相同的id是无效的,不会重复订阅.
-:::
+
+</div>
 
 平台推送消息:
 
@@ -47,11 +53,15 @@ ws.onmessage=function(e){console.log(e.data)}
 }
 ```
 
-::: tip 提示
+<div class='explanation primary'>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
 
 type为complete时标识本此订阅已结束,通常是订阅有限数据流时(比如发送设备指令),或者取消订阅时会返回此消息.
 
-:::
+</div>
 
 ## 取消订阅
 
@@ -66,8 +76,8 @@ type为complete时标识本此订阅已结束,通常是订阅有限数据流时(
 
 ## 订阅设备消息
 
-与消息网关中的设备topic一致,[查看topic列表](../best-practices/start.md#设备消息对应事件总线topic).
-消息负载(`payload`)将与[设备消息类型](../best-practices/start.md#平台统一设备消息定义)一致.
+与消息网关中的设备topic一致,<a href='/function-description/device_message_description.html#设备消息对应事件总线topic'>查看topic列表</a>.
+消息负载(`payload`)将与<a href='/function-description/device_message_description.html#消息定义'>设备消息类型</a>一致.
 
 ## 发送设备指令
 
@@ -110,12 +120,16 @@ type为complete时标识本此订阅已结束,通常是订阅有限数据流时(
 }
 ```
 
-::: tip 提示
+<div class='explanation primary'>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
 
 `deviceId`支持`*`和逗号`,`分割,批量发送消息到设备.如: `/device-message-sender/{productId}/{deviceId}`.
 如果要终止发送,直接取消订阅即可.
 
-:::
+</div>
 
 ## 批量同步设备状态
 

@@ -23,8 +23,9 @@ module.exports = {
                 collapsable: false, // 可选的, 默认值是 true,
                 sidebarDepth: 2,    // 可选的, 默认值是 1
                 children: [
-                    ['/home/home.md', '首页'],
-                    ['/home/Version_upgrade.md', '版本升级说明'],
+                    ['/', '开源物联网平台'],
+                    // ['/home/Version_upgrade.md', '版本升级说明'],
+                    ['/home/update-log.md', '更新记录'],
                 ]
             },
             {
@@ -33,7 +34,7 @@ module.exports = {
                 collapsable: false, // 可选的, 默认值是 true,
                 sidebarDepth: 2,    // 可选的, 默认值是 1
                 children: [
-                    ['/Product_introduction/Product_introduction2.1.md', '产品概述'],
+                    ['/Product_introduction/Product_introduction2.1.md', '产品简介'],
                     ['/Product_introduction/Basic_concepts2.2.md', '基本概念'],
                         ]
             },

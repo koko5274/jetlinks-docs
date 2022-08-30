@@ -12,7 +12,6 @@
 
 点击新建按钮:
 
-![新建客户端](../../best-practices/images/create-openapi.png)
 
 填写对应的内容保存.
 
@@ -28,7 +27,6 @@
 
 如果操作栏`赋权`里
 没有任何权限选项，先去`权限管理`赋予权限，`分类`选择`APi接口`。
-![流程](../../best-practices/images/empowerment.png)
 ::: tip 注意
 此赋权操作实际上是对`第三方平台`对应对`用户主体`进行赋权.
 :::

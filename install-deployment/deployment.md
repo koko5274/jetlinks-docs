@@ -21,12 +21,12 @@ cp -r dist docker/
 ### 使用docker部署前端
 1. 构建docker镜像  
 ```bash
-docker build -t registry.cn-shenzhen.aliyuncs.com/jetlinks/jetlinks-ui-antd:1.10.0 ./docker
+docker build -t registry.cn-shenzhen.aliyuncs.com/jetlinks/jetlinks-ui-antd:2.0.0 ./docker
 ```
 
 2. 运行docker镜像  
 ```bash
-docker run -it --rm -p 9000:80 -e "API_BASE_PATH=http://xxx:8844/" registry.cn-shenzhen.aliyuncs.com/jetlinks/jetlinks-ui-antd:1.10.0
+docker run -it --rm -p 9000:80 -e "API_BASE_PATH=http://xxx:8844/" registry.cn-shenzhen.aliyuncs.com/jetlinks/jetlinks-ui-antd:2.0.0
 ```
 
 <div class='explanation info'>

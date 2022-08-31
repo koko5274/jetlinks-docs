@@ -22,15 +22,25 @@
 
 ## 下载源代码
 
-1. 进入<a href='https://gitee.com/jetlinks/jetlinks-community'>Gitee</a>
+1. 进入<a href='https://github.com/jetlinks-v2/jetlinks-pro'>GitHub</a>
 2. Star仓库
    ![star.png](./images/star.png)
 3. 下载源代码,建议使用`git clone`下载源代码,注意代码分支,`master`为最新的开发分支.其他分支为对应的版本.
-   ![star.png](./images/download.png)
+   ![download.png](./images/download.png)
+
+第一步: 先到个人设置中[添加SSH key](https://github.com/settings/keys)
+
+第二步: 拉取代码
 
 ```bash
-$ git clone https://gitee.com/jetlinks/jetlinks-community.git
-$ cd jetlinks-community
+ git clone -b master --recurse-submodules git@github.com:jetlinks-v2/jetlinks-pro.git && git submodule foreach git checkout master
+```
+
+第三步: 更新代码
+
+JetLinks Pro使用`git多模块`管理,使用此命令更新全部模块.
+```bash
+ git pull && git submodule init && git submodule update && git submodule foreach git checkout master && git submodule foreach git pull origin master
 ```
 
 ## 配置文件

@@ -74,7 +74,7 @@ java -jar jetlinks-view-admin.jar
 
 守护态启动命令：
 ```
-nohub java -jar jetlinks-view-admin.jar > jetlinks-view.log &
+nohup java -jar jetlinks-view-admin.jar > jetlinks-view.log &
 ```
 
 - 启动前端

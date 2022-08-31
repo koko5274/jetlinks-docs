@@ -54,6 +54,9 @@ TCP/UDP/MQTT/HTTP、TLS/DTLS、不同厂商、不同设备、不同报文、统�
 
 ![platform](./platform.png)
 
+## 设备接入流程
+
+
 ## 许可版本
 
 JetLinks所有版本均开放源代码.

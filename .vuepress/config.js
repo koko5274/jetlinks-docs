@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'JetLinks 物联网基础平台',
+    title: 'JetLinks 物联网基础平台（2.x）',
     descirption: '测试文档',
     //basic: './dist',
     port: 9999,
@@ -138,7 +138,9 @@ module.exports = {
                     ['/dev-guide/sort-link.md', '短连接接入平台'],
                     ['/dev-guide/poll-device-data.md', '平台从第三方或者设备主动拉取数据'],
                     ['/dev-guide/assets.md', '数据权限控制'],
+                    ['/dev-guide/subscribe-device-message.md', '从事件总线中订阅消息'],
                     ['/dev-guide/sso.md', '单点登录'],
+                    ['/dev-guide/i18n.md', '国际化'],
                     //['/dev-guide/micro-service', '微服务']
 
                 ]

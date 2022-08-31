@@ -1,8 +1,5 @@
 # 更新记录&开发计划
 
-最新社区版代码托管在[github](https://github.com/jetlinks/jetlinks-community)和
-[gitee](https://gitee.com/jetlinks/jetlinks-community)上.
-
 企业版代码托管在[github](https://github.com/jetlinks-v2)上,购买企业版后可获取企业版代码以及后续更新。
 
 前端代码统一托管在[github](https://github.com/jetlinks/jetlinks-ui-antd)。
@@ -18,7 +15,7 @@ master为最新开发分支. 线上使用请根据情况切换到对应版本的
 
 </div>
 
-当前最新稳定版本`2.0`,对应代码分支`2.0`.
+当前最新稳定版本`2.0`,对应代码分支`master`.
 
 ## 2.0-RC
 

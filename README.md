@@ -103,6 +103,7 @@ JetLinks使用模块化(`git submodule`+`maven`)管理,部分核心模块是单�
 | 移动OneNet平台接入           | ⭕      |  ✅ (付费选配模块)          |
 | GBT/28181视频设备接入        | ⭕      |  ✅ (付费选配模块)          |
 | OPC UA                     | ⭕      |  ✅ (付费选配模块)          |
+| Modbus/TCP                     | ⭕      |  ✅ (付费选配模块)          |
 | 商业限制                    | 仅用于自有项目<br>禁止售卖源代码.  | <span style='color:green;font-weight:800'>不限项目数量</span> |
 | 定价                         | 免费   |  加QQ群`2021514`联系商务     |
 

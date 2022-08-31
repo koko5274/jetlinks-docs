@@ -3,6 +3,130 @@
 平台封装了网络通信,但是具体的数据由消息协议进行解析.`协议(ProtocolSupport)`主要由`认证器(Authenticator)`,
 `消息编解码器(DeviceMessageCodec)`,`消息发送拦截器(DeviceMessageSenderInterceptor)`以及`配置元数据(ConfigMetadata)`组成.
 
+## 设备接入协议开发说明
+
+协议作为设备接入的核心,用于对设备进行消息编解码等操作.目前仅提供`java`版的协议开发sdk.
+
+### 名词解释
+
++ *协议提供商* (`ProtocolSupportProvider`): 用于创建协议包实例,在发布协议时,将使用此接口的实现类来创建协议包实例.
++ *协议支持* (`ProtocolSupport`) : 用于解析`设备`和`平台`通信报文的插件,同时还对接入协议进行一些描述,如: 接入说明,需要的配置信息,默认物模型等.
++ *编解码* (`DeviceMessageCodec`): 对设备上报的数据进行解码,翻译为平台定义的统一的设备消息(`DeviceMessage`).以及将平台下发的消息(指令)`DeviceMessage`,编码为设备支持的报文.
++ *设备操作器*(`DeviceOperator`): 对一个设备实例的操作接口,可通过此接口获取、设置配置信息,获取物模型等操作.
++ *设备会话* (`DeviceSession`): 一个设备的连接会话信息,如: TCP,MQTT连接.
++ *设备消息* (`DeviceMessage`): 平台统一定义的设备消息,如:属性上报(`ReportPropertyMessage`),功能调用(`FunctionInvokeMessage`)等.
++ *设备原始消息* (`EncodedMessage`): 设备端原始的消息,如: MQTT(`MqttMessage`),HTTP(`HttpExchangeMessage`)等.
+
+
+### 调用流程
+
+<div class='explanation primary'>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
+
+<b style='color:#3399cc'>蓝色背景</b>表示协议包在整个流程中的角色
+
+</div>
+
+设备上报数据到平台流程
+
+![设备上报数据流程](../protocol/img/decode-flow.svg)
+
+
+平台下发指令到设备流程
+
+![设备下发数据流程](../protocol/img/encode-flow.svg)
+
+## 协议包开发快速开始
+
+<div class='explanation warning'>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-jinggao explanation-icon'></span>
+    <span class='explanation-title font-weight'>警告</span>
+  </p>
+
+请先安装和配置`java8`和`maven3`,能正常执行`mvn`命令即可,本文不做单独介绍.
+
+</div>
+
+### 创建Maven项目
+
+基于模版项目创建
+
+`linux` 或者 `macOS` 下执行
+```shell
+mvn dependency:get \
+-DremoteRepositories=https://nexus.hsweb.me/content/groups/public \
+-DgroupId=org.jetlinks.protocol \
+-DartifactId=protocol-archetype \
+-Dversion=1.0.0-SNAPSHOT \
+&& \
+mvn archetype:generate \
+-DarchetypeGroupId=org.jetlinks.protocol \
+-DarchetypeArtifactId=protocol-archetype \
+-DarchetypeVersion=1.0.0-SNAPSHOT \
+-DoutputDirectory=./ \
+-DgroupId=com.domain \
+-DartifactId=custom-protocol \
+-Dversion=1.0 \
+-DarchetypeCatalog=local \
+-DinteractiveMode=false
+```
+
+`windows`下使用`PowerShell`执行:
+
+```shell
+mvn dependency:get `
+-DremoteRepositories="https://nexus.hsweb.me/content/groups/public" `
+-DgroupId="org.jetlinks.protocol" `
+-DartifactId="protocol-archetype" `
+-Dversion="1.0.0-SNAPSHOT" 
+;
+mvn archetype:generate `
+-DarchetypeGroupId="org.jetlinks.protocol" `
+-DarchetypeArtifactId="protocol-archetype" `
+-DarchetypeVersion="1.0.0-SNAPSHOT" `
+-DoutputDirectory="./" `
+-DgroupId="com.domain" `
+-DartifactId="custom-protocol" `
+-Dversion="1.0" `
+-DarchetypeCatalog="local" `
+-DinteractiveMode="false"
+```
+
+<div class='explanation primary'>
+  <p class='explanation-title-warp'>
+    <span class='iconfont icon-bangzhu explanation-icon'></span>
+    <span class='explanation-title font-weight'>说明</span>
+  </p>
+
+可根据需要修改第二个命令中的 `-DgroupId=com.domain`
+以及`-DartifactId=custom-protocol`
+
+</div>
+
+命令执行成功后,将会在当前目录中创建名为`custom-protocol`的项目
+
+![创建项目](../protocol/img/create-project.gif)
+
+
+### 使用Idea打开
+
+使用`File`-`open` 打开刚才创建的项目目录
+
+![打开](../protocol/img/open-idea.png)
+
+
+### 开始开发
+
+[MQTT协议解析](../protocol/mqtt.md)
+
+<!-- [TCP协议解析](./tcp.md) -->
+
+<!-- [HTTP协议解析](./http.md) -->
+
 ## 认证器
 
 认证器(Authenticator)是用于在收到设备请求(例如MQTT)时,对客户端进行认证时使用,不同的网络协议(Transport)使用不同的认证器.

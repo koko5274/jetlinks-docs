@@ -105,7 +105,7 @@ module.exports = {
                     ['/Best_practices/Device_access.md', '设备接入'],
                     ['/Best_practices/Scene_linkage.md', '场景联动'],
                     ['/Best_practices/Alarm_Center.md', '告警中心'],
-                    ['/Best_practices/Rule_engine.md', '规则引擎'],
+                    // ['/Best_practices/Rule_engine.md', '规则引擎'],
                     ['/Best_practices/Northbound_output.md', '北向输出'],
                     ['/Best_practices/Notification_management.md', '通知管理'],
                     ['/Best_practices/National_standard_cascade.md', '国标级联'],
@@ -192,6 +192,7 @@ module.exports = {
                     //['', '快速开始'],
                     ['/common-problems/install.md', '安装,启动常见问题'],
                     ['/common-problems/network-components.md', '网络组件常见问题'],
+                    ['/protocol/faq.md', '协议开发常见问题'],
                     ['/common-problems/mqtt-connection.md', '使用MQTT接入时的常见问题'],
                     ['/common-problems/tcp-network-components.md', 'TCP网络组件常见问题'],
                     ['/common-problems/FAQ.md', '其他常见问题']

@@ -117,7 +117,7 @@ JetLinks使用模块化(`git submodule`+`maven`)管理,部分核心模块是单�
     <div style='width: 50%'>
         <ul>
             <li><a href="/common-problems/install.html">安装启动常见问题</a></li>
-            <li><a href="/common-problems/network-components.html">网络组件常见问题</a></li>
+            <li><a href="/protocol/faq.html">协议开发常见问题</a></li>
             <li><a href="/common-problems/mqtt-connection.html">使用MQTT接入时的常见问题</a></li>
             <li><a href="/common-problems/tcp-network-components.html">TCP网络组件常见问题</a></li>
             <li><a href="/common-problems/FAQ.html#项目在本地环境安装的时候镜像总是拉取不下来">项目在本地环境安装的时候镜像总是拉取不下来</a></li>

@@ -33,7 +33,7 @@ jetlinks源代码托管在<a href='https://github.com/jetlinks-v2/jetlinks-pro'>
     <span class='explanation-title font-weight'>提示</span>
   </p>
 
-docker-compose中的jetlinks、jetlinks-ui-antd镜像持续更新中，启动docker之前请及时下载更新。
+docker-compose中的jetlinks、jetlinks-ui-pro镜像持续更新中，启动docker之前请及时下载更新。
 
 </div>
 

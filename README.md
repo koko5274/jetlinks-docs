@@ -56,6 +56,7 @@ TCP/UDP/MQTT/HTTP、TLS/DTLS、不同厂商、不同设备、不同报文、统�
 
 ## 设备接入流程
 
+![device-flow](./device-flow.png)
 
 ## 许可版本
 
